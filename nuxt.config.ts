@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     redirectWithQuery: false,
     homeURL: '',
     cfAccountId: 'fb49b8fd8451c1f51926cc0b0a86138d',
-    cfApiToken: '',
+    cfApiToken: 'WFs_LY7smxgRdu9KUje6leNXpIjmFsFPFbv1lyjS',
     dataset: 'sink',
     aiModel: '@cf/qwen/qwen3-30b-a3b-fp8',
     aiPrompt: `You are a URL shortening assistant, please shorten the URL provided by the user into a SLUG. The SLUG information must come from the URL itself, do not make any assumptions. A SLUG is human-readable and should not exceed three words and can be validated using regular expressions {slugRegex} . Only the best one is returned, the format must be JSON reference {"slug": "example-slug"}`,
