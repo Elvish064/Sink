@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     linkCacheTtl: 60,
     redirectWithQuery: false,
     homeURL: '',
-    cfAccountId: '',
+    cfAccountId: 'fb49b8fd8451c1f51926cc0b0a86138d',
     cfApiToken: '',
     dataset: 'sink',
     aiModel: '@cf/qwen/qwen3-30b-a3b-fp8',
